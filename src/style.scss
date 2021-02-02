@@ -1,0 +1,17 @@
+.test {
+  background-color: cyan;
+  height: 200px;
+  animation: move 1s linear forwards;
+  h1 {
+    color: red;
+  }
+}
+
+@keyframes move {
+  0% {
+    height: 200px;
+  }
+  100% {
+    height: 500px;
+  }
+}
